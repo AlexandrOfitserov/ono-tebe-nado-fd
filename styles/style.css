@@ -5,16 +5,23 @@
 }
 
 .header {
-display: grid;
-grid-template-columns: 1fr min-content 1fr;
-align-items:center;
-height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items:center;
+    height: 293px;
 }
 
 .header__links-list {
     display: flex;
     list-style: circle;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    max-width: 392px;
+    margin-left: 50px;
 }
 
 .header__links-list-item_no-bullit {
@@ -37,6 +44,13 @@ height: 293px;
     width: 240px;
     justify-self: end;
     font-style: normal;
+    margin-right: 50px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+    color: #000000;
 }
 
 .cover {
@@ -98,12 +112,11 @@ height: 293px;
     font-size: 22px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     text-transform: uppercase;
     color: #FFFFFF;
-    word-spacing:15px;
+    word-spacing:19px;
     margin-left: 50px;
-    margin-top: 128px;
+    margin-top: 148px;
 }
 
 .bet-button {
@@ -114,15 +127,14 @@ height: 293px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-right: 50px;
     border: 1px solid #FFFFFF;
-    margin-left: 50px;
-    margin-top: 118px;
+    margin-top: 136px;
+    margin-right: 56px;
     padding: 10px 25px;
 }
 
 .lots {
- margin-top: 180px;
+ margin-top: 187px;
 }
 
 .lots__heading {
@@ -140,6 +152,7 @@ height: 293px;
     margin-top: 27px;
     list-style: none;
     justify-content: space-around;
+    padding: 0 10px 0 10px;
 }
 
 .lots__card-list-item {
@@ -207,7 +220,7 @@ height: 293px;
     line-height: 100%;
     color: #000000;
     margin-left: 64px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .about {
@@ -232,6 +245,11 @@ height: 293px;
     width: 148px;
 }
 
+.about__column {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
 .about__title {
     font-family: Raleway;
     font-weight: 700;
@@ -252,13 +270,14 @@ height: 293px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-right: 12px;
+    margin-right: 3px;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 180px;
+    margin-bottom: 82px;
 }
 
 .footer_addres {
@@ -283,6 +302,7 @@ height: 293px;
     font-size: 18px;
     line-height: 100%;
     color: #000000;
+    margin-top: 5px;
 }
 
 .footer__menu-list {
