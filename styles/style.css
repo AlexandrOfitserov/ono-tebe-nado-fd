@@ -204,6 +204,7 @@
 }
 
 .lots__look-more-link {
+    display: block;
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
