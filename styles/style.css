@@ -10,7 +10,6 @@
     list-style: circle;
     justify-content: space-between;
     font-weight: 400;
-    font-family: Raleway;
     font-size: 18px;
     line-height: 100%;
     color: #000000;
@@ -37,7 +36,6 @@
     flex-direction: column;
     align-items: flex-start;
     width: 240px;
-    font-family: Raleway;
     justify-self: end;
     font-style: normal;
     margin-right: 50px;
@@ -106,7 +104,6 @@
 .cover__description-text {
     font-size: 22px;
     font-weight: 400;
-    font-family: Raleway;
     text-transform: uppercase;
     color: #FFFFFF;
     word-spacing:19px;
@@ -117,7 +114,6 @@
 
 .bet-button {
     font-weight: 500;
-    font-family: Raleway;
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
@@ -135,7 +131,6 @@
 
 .lots__heading {
     margin-left: 64px;
-    font-family: Raleway;
     color:#000000;
     font-weight: 700;
     font-size: 40px;
@@ -192,6 +187,10 @@
     margin: 0 40px 48px 40px;
 }
 
+.card__text_none {
+    text-decoration: none;
+}
+
 .card_type_film {
     background: url(../images/card-lot-01.jpg) no-repeat center;
 }
@@ -207,7 +206,6 @@
 .lots__look-more-link {
     font-weight: 400;
     font-size: 20px;
-    font-family: Raleway;
     line-height: 100%;
     color: #000000;
     margin-left: 64px;
@@ -245,7 +243,6 @@
 .about__title {
     font-weight: 700;
     font-size: 40px;
-    font-family: Raleway;
     line-height: 100%;
     text-transform: uppercase;
     color: #000000;
@@ -256,7 +253,6 @@
 .about__text {
     font-weight: 400;
     font-size: 20px;
-    font-family: Raleway;
     line-height: 24px;
     word-spacing: 3px;
     color: #000000;
@@ -279,7 +275,6 @@
     display: flex;
     flex-direction: column;
     font-style: normal;
-    font-family: Raleway;
     min-width: 265px;
     font-weight: 400;
     font-size: 18px;
@@ -293,7 +288,6 @@
     display: grid;
     justify-content: center;
     text-align: center;
-    font-family: Raleway;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
